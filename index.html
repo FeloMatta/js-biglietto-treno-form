@@ -11,24 +11,38 @@
 <body>
     
     <main>
+        <section class="data-input">
+            <form action="">
+                <div>
 
-        <div>
+                    <input id="km-input" type="number" placeholder="Inserisci il numero di KM che devi percorrere...">
 
-            <input id="km-input" type="number" placeholder="Inserisci il numero di KM che devi percorrere...">
+                </div>
 
-        </div>
+                <div>
 
-        <div>
+                    <select id="age-select">
+                        <option value="s">Standard</option>
+                        <option value="m">Minorenni</option>
+                        <option value="o">Over 65</option>
+                    </select>
 
-            <input id="age-input" type="number" placeholder="Inserisci la tua età...">
+                </div>
 
-        </div>
+                <div>
+                    <button type="button" id="submit-button">
+                        Calcola prezzo
+                    </button>
+                    <button type="button" id="empty-button">
+                        Svuota input
+                    </button>
+                </div>
+            </form>
+        </section>
 
-        <div>
-            <button id="submit-button">
-                Calcola prezzo
-            </button>
-        </div>
+        <section class="data-output">
+            <h1 id="final-price">QUI CI ANDRA' IL PREZZO FINALE</h1>
+        </section>
 
     </main>
 
